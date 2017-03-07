@@ -11,7 +11,9 @@ import Parse
 
 class App : PFObject {
     
+    @NSManaged var likes: Int
     @NSManaged var name: String
+    @NSManaged var company: String
     @NSManaged var relevantLink: String
 //    @NSManaged var description: String
 

@@ -55,8 +55,9 @@ class AppsTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "appListCellIdentifier", for: indexPath)
 
-        let a = apps[indexPath.row].object(forKey: "name")
-        cell.textLabel?.text = "\(a!)"
+        if let appCell = cell as? AppTableViewCell {
+            appCell.bind(apps[indexPath.row])
+        }
 
         return cell
     }

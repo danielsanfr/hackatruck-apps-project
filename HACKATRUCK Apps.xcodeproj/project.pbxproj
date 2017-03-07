@@ -15,6 +15,7 @@
 		3F53DBAE1E6B5B8F0044FB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53DBAD1E6B5B8F0044FB55 /* ViewController.swift */; };
 		3F53DBB01E6B5BDE0044FB55 /* AppsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53DBAF1E6B5BDE0044FB55 /* AppsTableViewController.swift */; };
 		3FB885761E6E031A0077E3A9 /* ViewcontrollerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB885751E6E031A0077E3A9 /* ViewcontrollerExtension.swift */; };
+		3FFB54B71E6F3A1E00C3B201 /* AppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB54B61E6F3A1E00C3B201 /* AppTableViewCell.swift */; };
 		5D385CC623D4905B5FF54E9C /* Pods_HACKATRUCK_Apps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5EC7DF27366A02CBC5AB13 /* Pods_HACKATRUCK_Apps.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		3F53DBAD1E6B5B8F0044FB55 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F53DBAF1E6B5BDE0044FB55 /* AppsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsTableViewController.swift; sourceTree = "<group>"; };
 		3FB885751E6E031A0077E3A9 /* ViewcontrollerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewcontrollerExtension.swift; sourceTree = "<group>"; };
+		3FFB54B61E6F3A1E00C3B201 /* AppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTableViewCell.swift; sourceTree = "<group>"; };
 		A55B914ED2F9548D5C10408B /* Pods-HACKATRUCK Apps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HACKATRUCK Apps.release.xcconfig"; path = "Pods/Target Support Files/Pods-HACKATRUCK Apps/Pods-HACKATRUCK Apps.release.xcconfig"; sourceTree = "<group>"; };
 		EE5EC7DF27366A02CBC5AB13 /* Pods_HACKATRUCK_Apps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HACKATRUCK_Apps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9E3FB94AEC91BEA7EFC0C0B /* Pods-HACKATRUCK Apps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HACKATRUCK Apps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HACKATRUCK Apps/Pods-HACKATRUCK Apps.debug.xcconfig"; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				3F53DBAD1E6B5B8F0044FB55 /* ViewController.swift */,
 				3F53DBAB1E6B54D70044FB55 /* App.swift */,
 				3F14338A1E6B4CAB00E50457 /* Main.storyboard */,
+				3FFB54B61E6F3A1E00C3B201 /* AppTableViewCell.swift */,
 				3F14338D1E6B4CAB00E50457 /* Assets.xcassets */,
 				3F53DBAA1E6B4D6F0044FB55 /* Supporting Files */,
 			);
@@ -233,6 +236,7 @@
 				3F53DBAC1E6B54D70044FB55 /* App.swift in Sources */,
 				3F1433871E6B4CAB00E50457 /* AppDelegate.swift in Sources */,
 				3F53DBB01E6B5BDE0044FB55 /* AppsTableViewController.swift in Sources */,
+				3FFB54B71E6F3A1E00C3B201 /* AppTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
