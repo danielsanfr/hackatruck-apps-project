@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F1433871E6B4CAB00E50457 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1433861E6B4CAB00E50457 /* AppDelegate.swift */; };
+		3F14338C1E6B4CAB00E50457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14338A1E6B4CAB00E50457 /* Main.storyboard */; };
+		3F14338E1E6B4CAB00E50457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F14338D1E6B4CAB00E50457 /* Assets.xcassets */; };
+		3F1433911E6B4CAB00E50457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14338F1E6B4CAB00E50457 /* LaunchScreen.storyboard */; };
+		3F53DBAC1E6B54D70044FB55 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53DBAB1E6B54D70044FB55 /* App.swift */; };
+		3F53DBAE1E6B5B8F0044FB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53DBAD1E6B5B8F0044FB55 /* ViewController.swift */; };
+		3F53DBB01E6B5BDE0044FB55 /* AppsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53DBAF1E6B5BDE0044FB55 /* AppsTableViewController.swift */; };
+		3FB885761E6E031A0077E3A9 /* ViewcontrollerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB885751E6E031A0077E3A9 /* ViewcontrollerExtension.swift */; };
+		5D385CC623D4905B5FF54E9C /* Pods_HACKATRUCK_Apps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE5EC7DF27366A02CBC5AB13 /* Pods_HACKATRUCK_Apps.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F1433831E6B4CAB00E50457 /* HACKATRUCK Apps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HACKATRUCK Apps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F1433861E6B4CAB00E50457 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F14338B1E6B4CAB00E50457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F14338D1E6B4CAB00E50457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F1433901E6B4CAB00E50457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F1433921E6B4CAB00E50457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F53DBAB1E6B54D70044FB55 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		3F53DBAD1E6B5B8F0044FB55 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F53DBAF1E6B5BDE0044FB55 /* AppsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsTableViewController.swift; sourceTree = "<group>"; };
+		3FB885751E6E031A0077E3A9 /* ViewcontrollerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewcontrollerExtension.swift; sourceTree = "<group>"; };
+		A55B914ED2F9548D5C10408B /* Pods-HACKATRUCK Apps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HACKATRUCK Apps.release.xcconfig"; path = "Pods/Target Support Files/Pods-HACKATRUCK Apps/Pods-HACKATRUCK Apps.release.xcconfig"; sourceTree = "<group>"; };
+		EE5EC7DF27366A02CBC5AB13 /* Pods_HACKATRUCK_Apps.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HACKATRUCK_Apps.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9E3FB94AEC91BEA7EFC0C0B /* Pods-HACKATRUCK Apps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HACKATRUCK Apps.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HACKATRUCK Apps/Pods-HACKATRUCK Apps.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F1433801E6B4CAA00E50457 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D385CC623D4905B5FF54E9C /* Pods_HACKATRUCK_Apps.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F14337A1E6B4CAA00E50457 = {
+			isa = PBXGroup;
+			children = (
+				3F1433851E6B4CAB00E50457 /* HACKATRUCK Apps */,
+				3F1433841E6B4CAB00E50457 /* Products */,
+				B68C425C5BA43CA0E95BAA5D /* Pods */,
+				7FFFF2CBACA8641C8A097EB4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3F1433841E6B4CAB00E50457 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F1433831E6B4CAB00E50457 /* HACKATRUCK Apps.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F1433851E6B4CAB00E50457 /* HACKATRUCK Apps */ = {
+			isa = PBXGroup;
+			children = (
+				3FB885751E6E031A0077E3A9 /* ViewcontrollerExtension.swift */,
+				3F53DBAF1E6B5BDE0044FB55 /* AppsTableViewController.swift */,
+				3F53DBAD1E6B5B8F0044FB55 /* ViewController.swift */,
+				3F53DBAB1E6B54D70044FB55 /* App.swift */,
+				3F14338A1E6B4CAB00E50457 /* Main.storyboard */,
+				3F14338D1E6B4CAB00E50457 /* Assets.xcassets */,
+				3F53DBAA1E6B4D6F0044FB55 /* Supporting Files */,
+			);
+			path = "HACKATRUCK Apps";
+			sourceTree = "<group>";
+		};
+		3F53DBAA1E6B4D6F0044FB55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F1433861E6B4CAB00E50457 /* AppDelegate.swift */,
+				3F14338F1E6B4CAB00E50457 /* LaunchScreen.storyboard */,
+				3F1433921E6B4CAB00E50457 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FFFF2CBACA8641C8A097EB4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE5EC7DF27366A02CBC5AB13 /* Pods_HACKATRUCK_Apps.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B68C425C5BA43CA0E95BAA5D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9E3FB94AEC91BEA7EFC0C0B /* Pods-HACKATRUCK Apps.debug.xcconfig */,
+				A55B914ED2F9548D5C10408B /* Pods-HACKATRUCK Apps.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F1433821E6B4CAA00E50457 /* HACKATRUCK Apps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F1433951E6B4CAB00E50457 /* Build configuration list for PBXNativeTarget "HACKATRUCK Apps" */;
+			buildPhases = (
+				6A95FC276C321562DCADF041 /* [CP] Check Pods Manifest.lock */,
+				3F14337F1E6B4CAA00E50457 /* Sources */,
+				3F1433801E6B4CAA00E50457 /* Frameworks */,
+				3F1433811E6B4CAA00E50457 /* Resources */,
+				4DA26A80F7E6E5A360B86C8F /* [CP] Embed Pods Frameworks */,
+				A67B2BD17A058FF0268D78D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HACKATRUCK Apps";
+			productName = "HACKATRUCK Apps";
+			productReference = 3F1433831E6B4CAB00E50457 /* HACKATRUCK Apps.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F14337B1E6B4CAA00E50457 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Daniel San";
+				TargetAttributes = {
+					3F1433821E6B4CAA00E50457 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F14337E1E6B4CAA00E50457 /* Build configuration list for PBXProject "HACKATRUCK Apps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F14337A1E6B4CAA00E50457;
+			productRefGroup = 3F1433841E6B4CAB00E50457 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F1433821E6B4CAA00E50457 /* HACKATRUCK Apps */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F1433811E6B4CAA00E50457 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F1433911E6B4CAB00E50457 /* LaunchScreen.storyboard in Resources */,
+				3F14338E1E6B4CAB00E50457 /* Assets.xcassets in Resources */,
+				3F14338C1E6B4CAB00E50457 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4DA26A80F7E6E5A360B86C8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HACKATRUCK Apps/Pods-HACKATRUCK Apps-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A95FC276C321562DCADF041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A67B2BD17A058FF0268D78D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HACKATRUCK Apps/Pods-HACKATRUCK Apps-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F14337F1E6B4CAA00E50457 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FB885761E6E031A0077E3A9 /* ViewcontrollerExtension.swift in Sources */,
+				3F53DBAE1E6B5B8F0044FB55 /* ViewController.swift in Sources */,
+				3F53DBAC1E6B54D70044FB55 /* App.swift in Sources */,
+				3F1433871E6B4CAB00E50457 /* AppDelegate.swift in Sources */,
+				3F53DBB01E6B5BDE0044FB55 /* AppsTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F14338A1E6B4CAB00E50457 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F14338B1E6B4CAB00E50457 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F14338F1E6B4CAB00E50457 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F1433901E6B4CAB00E50457 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F1433931E6B4CAB00E50457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F1433941E6B4CAB00E50457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F1433961E6B4CAB00E50457 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9E3FB94AEC91BEA7EFC0C0B /* Pods-HACKATRUCK Apps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HACKATRUCK Apps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielsan.HACKATRUCK-Apps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F1433971E6B4CAB00E50457 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A55B914ED2F9548D5C10408B /* Pods-HACKATRUCK Apps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "HACKATRUCK Apps/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.danielsan.HACKATRUCK-Apps";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F14337E1E6B4CAA00E50457 /* Build configuration list for PBXProject "HACKATRUCK Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1433931E6B4CAB00E50457 /* Debug */,
+				3F1433941E6B4CAB00E50457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F1433951E6B4CAB00E50457 /* Build configuration list for PBXNativeTarget "HACKATRUCK Apps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F1433961E6B4CAB00E50457 /* Debug */,
+				3F1433971E6B4CAB00E50457 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F14337B1E6B4CAA00E50457 /* Project object */;
+}

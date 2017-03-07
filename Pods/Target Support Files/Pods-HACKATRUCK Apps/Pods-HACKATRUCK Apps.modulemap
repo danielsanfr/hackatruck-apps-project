@@ -1,0 +1,6 @@
+framework module Pods_HACKATRUCK_Apps {
+  umbrella header "Pods-HACKATRUCK Apps-umbrella.h"
+
+  export *
+  module * { export * }
+}
