@@ -1,0 +1,6 @@
+framework module ISScrollViewPageSwift {
+  umbrella header "ISScrollViewPageSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

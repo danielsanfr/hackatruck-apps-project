@@ -42,7 +42,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="98"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aYQ-Iz-Vzf" id="V4z-jl-zto">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="97"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="97.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Guk-tb-ZQk">
@@ -184,9 +184,15 @@
                                         <state key="normal" title="Open Info">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onClickOpenInfo" destination="EEc-NE-Our" eventType="touchUpInside" id="Vhb-T7-7Zl"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eEg-Ub-4U4" customClass="ISScrollViewPage" customModule="ISScrollViewPageSwift">
+                                <rect key="frame" x="16" y="204" width="343" height="414"/>
+                            </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <color key="tintColor" red="0.49803921579999999" green="0.49803921579999999" blue="0.49803921579999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -195,8 +201,12 @@
                             <constraint firstItem="vXz-qT-sxA" firstAttribute="top" secondItem="0sx-z3-DFX" secondAttribute="bottom" constant="16" id="Aku-1t-RM7"/>
                             <constraint firstAttribute="trailingMargin" secondItem="0sx-z3-DFX" secondAttribute="trailing" id="CnS-CK-vjN"/>
                             <constraint firstItem="0sx-z3-DFX" firstAttribute="leading" secondItem="G6c-qA-YlS" secondAttribute="leadingMargin" id="NIu-E6-AUh"/>
+                            <constraint firstItem="eEg-Ub-4U4" firstAttribute="leading" secondItem="G6c-qA-YlS" secondAttribute="leadingMargin" id="XKC-9T-Kjg"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vXz-qT-sxA" secondAttribute="trailing" id="YOl-vr-PA4"/>
                             <constraint firstItem="0sx-z3-DFX" firstAttribute="top" secondItem="hwG-ub-WHF" secondAttribute="bottom" constant="8" id="ibf-zc-3BZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="eEg-Ub-4U4" secondAttribute="trailing" id="j2m-3X-H81"/>
+                            <constraint firstItem="AXP-Ch-72L" firstAttribute="top" secondItem="eEg-Ub-4U4" secondAttribute="bottom" id="nT9-LR-ceI"/>
+                            <constraint firstItem="eEg-Ub-4U4" firstAttribute="top" secondItem="vXz-qT-sxA" secondAttribute="bottom" constant="16" id="nXi-rc-uNh"/>
                         </constraints>
                     </view>
                     <connections>
@@ -204,6 +214,7 @@
                         <outlet property="icon" destination="GPS-EC-A1E" id="e4t-9y-Zsh"/>
                         <outlet property="likes" destination="1Bq-uF-ovp" id="Dcu-Ow-amk"/>
                         <outlet property="name" destination="PtL-1t-QJL" id="tM4-dw-VLd"/>
+                        <outlet property="scrollViewPage" destination="eEg-Ub-4U4" id="tBu-0t-jXu"/>
                         <outlet property="tabs" destination="vXz-qT-sxA" id="JOd-Kf-H1q"/>
                     </connections>
                 </viewController>

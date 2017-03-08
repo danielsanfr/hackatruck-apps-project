@@ -7,5 +7,6 @@ target 'HACKATRUCK Apps' do
 
   # Pods for HACKATRUCK Apps
   pod 'Parse'
+  pod 'ISScrollViewPageSwift', :git => 'https://github.com/Ilhasoft/ISScrollViewPageSwift', :branch => 'swift3'
 
 end
