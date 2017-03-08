@@ -31,7 +31,7 @@ class AppDetailViewController: UIViewController, ISScrollViewPageDelegate {
         scrollViewPage.setPaging(false)
         scrollViewPage.scrollViewPageType = ISScrollViewPageType.horizontally
         
-        if let detailView = Bundle.main.loadNibNamed("AppDetailView", owner: self, options: nil)?.first as? AppDetailVIew {
+        if let detailView = Bundle.main.loadNibNamed("AppDetailView", owner: self, options: nil)?.first as? AppDetailView {
             if let relatedsView = Bundle.main.loadNibNamed("View1", owner: self, options: nil)?.first as? UIView {
                 detailView.bind(app)
                 scrollViewPage.setCustomViews([detailView, relatedsView])

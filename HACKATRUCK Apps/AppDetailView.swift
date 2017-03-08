@@ -8,7 +8,7 @@
 
 import UIKit
 
-class AppDetailVIew: UIView {
+class AppDetailView: UIView {
 
     @IBOutlet weak var appDescription: UILabel!
     @IBOutlet weak var company: UILabel!
