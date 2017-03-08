@@ -9,14 +9,16 @@
 import Foundation
 import UIKit
 
-extension ViewController {
-    func showAlert(title: String, message: String, confirmText: String) {
+class AlertHelper {
+
+    static func showAlert(_ viewControler: UIViewController, title: String, message: String, confirmText: String) {
         let alert: UIAlertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
-        present(alert, animated: true, completion: {
+        viewControler.present(alert, animated: true, completion: {
             print("Alerta completo!")
         })
         let action: UIAlertAction = UIAlertAction(title: confirmText, style: .default) { (action) in
         }
         alert.addAction(action)
     }
+
 }

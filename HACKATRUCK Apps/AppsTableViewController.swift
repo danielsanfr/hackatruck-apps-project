@@ -17,8 +17,8 @@ class AppsTableViewController: UITableViewController {
         super.viewDidLoad()
 
         PFQuery(className: "App").findObjectsInBackground { (apps, error) in
-            if error != nil {
-                error?.localizedDescription
+            if let e = error {
+                AlertHelper.showAlert(self, title: "Ocorreu um erro", message: e.localizedDescription, confirmText: "OK")
                 return
             }
 
@@ -97,14 +97,15 @@ class AppsTableViewController: UITableViewController {
     }
     */
 
-    /*
-    // MARK: - Navigation
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "showAppDetailIdentifier" {
+            if let viewController = segue.destination as? AppDetailViewController {
+                if let row = self.tableView.indexPathForSelectedRow?.row {
+                    viewController.app = apps[row]
+                }
+            }
+        }
     }
-    */
 
 }
