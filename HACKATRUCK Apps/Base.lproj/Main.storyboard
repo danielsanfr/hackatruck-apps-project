@@ -21,7 +21,7 @@
                     </tabBar>
                     <connections>
                         <segue destination="7nZ-PA-DbD" kind="relationship" relationship="viewControllers" id="ZKM-Iw-fr2"/>
-                        <segue destination="qit-CG-8Iu" kind="relationship" relationship="viewControllers" id="6Pr-Ky-BDl"/>
+                        <segue destination="Oyj-fE-8o8" kind="relationship" relationship="viewControllers" id="6Pr-Ky-BDl"/>
                         <segue destination="m7E-BM-mB2" kind="relationship" relationship="viewControllers" id="TfT-bm-cx4"/>
                     </connections>
                 </tabBarController>
@@ -241,22 +241,57 @@
             </objects>
             <point key="canvasLocation" x="-414" y="401"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Categories-->
         <scene sceneID="wBQ-oK-S64">
             <objects>
-                <tableViewController id="qit-CG-8Iu" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="yuG-ao-bzq">
+                <tableViewController id="qit-CG-8Iu" customClass="CategoriesTableViewController" customModule="HACKATRUCK_Apps" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="66" sectionHeaderHeight="28" sectionFooterHeight="28" id="yuG-ao-bzq">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="BFu-w9-8Yc">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="categoryCellIdentifier" rowHeight="66" id="BFu-w9-8Yc" customClass="CategoryTableViewCell" customModule="HACKATRUCK_Apps" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="28" width="375" height="66"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BFu-w9-8Yc" id="JRg-UR-sPH">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="65"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animal_2" translatesAutoresizingMaskIntoConstraints="NO" id="if9-nv-whS">
+                                            <rect key="frame" x="16" y="16" width="36" height="36"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" constant="36" id="Lfn-zM-VFr"/>
+                                                <constraint firstAttribute="height" constant="36" id="ojg-g3-Deg"/>
+                                            </constraints>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jce-3D-Qgc">
+                                            <rect key="frame" x="68" y="24" width="271" height="21"/>
+                                            <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="forward" translatesAutoresizingMaskIntoConstraints="NO" id="8v7-FZ-BtV">
+                                            <rect key="frame" x="347" y="28" width="12" height="12"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="12" id="dmF-5k-78e"/>
+                                                <constraint firstAttribute="width" constant="12" id="fQR-oc-T9y"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="if9-nv-whS" firstAttribute="leading" secondItem="JRg-UR-sPH" secondAttribute="leadingMargin" constant="8" id="7gC-BV-mSR"/>
+                                        <constraint firstItem="Jce-3D-Qgc" firstAttribute="leading" secondItem="if9-nv-whS" secondAttribute="trailing" constant="16" id="K3d-h2-gKW"/>
+                                        <constraint firstItem="Jce-3D-Qgc" firstAttribute="top" secondItem="JRg-UR-sPH" secondAttribute="topMargin" constant="16" id="YcH-kr-g80"/>
+                                        <constraint firstItem="8v7-FZ-BtV" firstAttribute="leading" secondItem="Jce-3D-Qgc" secondAttribute="trailing" constant="8" id="dWc-48-swp"/>
+                                        <constraint firstItem="8v7-FZ-BtV" firstAttribute="top" secondItem="JRg-UR-sPH" secondAttribute="top" constant="28" id="iqK-7L-Tfv"/>
+                                        <constraint firstAttribute="trailing" secondItem="8v7-FZ-BtV" secondAttribute="trailing" constant="16" id="kYV-93-iih"/>
+                                        <constraint firstItem="if9-nv-whS" firstAttribute="top" secondItem="JRg-UR-sPH" secondAttribute="topMargin" constant="8" id="roU-GG-uKu"/>
+                                    </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="icon" destination="if9-nv-whS" id="rkR-il-QFp"/>
+                                    <outlet property="name" destination="Jce-3D-Qgc" id="t5G-ki-rZO"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -264,11 +299,11 @@
                             <outlet property="delegate" destination="qit-CG-8Iu" id="I6q-u7-Nl1"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="Ouh-jA-5YN"/>
+                    <navigationItem key="navigationItem" title="Categories" id="BBl-hU-hKD"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KWA-WL-IuX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="458" y="-57"/>
+            <point key="canvasLocation" x="1396" y="-57.121439280359823"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="YMt-9h-Af6">
@@ -289,8 +324,28 @@
             </objects>
             <point key="canvasLocation" x="453.60000000000002" y="-752.47376311844084"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="pCQ-5h-7Js">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Oyj-fE-8o8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="Ouh-jA-5YN"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3WI-69-hWB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qit-CG-8Iu" kind="relationship" relationship="rootViewController" id="TF9-qp-NV7"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="G6P-Dd-B3c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="456.80000000000001" y="-57.121439280359823"/>
+        </scene>
     </scenes>
     <resources>
         <image name="animal_2" width="1000" height="1000"/>
+        <image name="forward" width="25" height="25"/>
     </resources>
 </document>
