@@ -12,11 +12,17 @@ import Parse
 class AppsTableViewController: UITableViewController {
 
     var apps = [App]()
+    var category: Category?
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        PFQuery(className: "App").includeKey("category").findObjectsInBackground { (apps, error) in
+        let query = PFQuery(className: "App")
+        if let cat = category {
+            query.whereKey("category", equalTo: cat)
+        }
+
+        query.includeKey("category").findObjectsInBackground { (apps, error) in
             if let e = error {
                 AlertHelper.showAlert(self, title: "Ocorreu um erro", message: e.localizedDescription, confirmText: "OK")
                 return

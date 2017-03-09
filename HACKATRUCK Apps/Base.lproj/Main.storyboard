@@ -291,6 +291,7 @@
                                 <connections>
                                     <outlet property="icon" destination="if9-nv-whS" id="rkR-il-QFp"/>
                                     <outlet property="name" destination="Jce-3D-Qgc" id="t5G-ki-rZO"/>
+                                    <segue destination="cKH-vz-uAY" kind="show" identifier="showAppListByCategoryIdentifier" id="agG-XM-emt"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -348,4 +349,7 @@
         <image name="animal_2" width="1000" height="1000"/>
         <image name="forward" width="25" height="25"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="agG-XM-emt"/>
+    </inferredMetricsTieBreakers>
 </document>
