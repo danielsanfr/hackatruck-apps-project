@@ -16,6 +16,9 @@ class App : PFObject {
     @NSManaged var company: String
     @NSManaged var relevantLink: String
     @NSManaged var appDescription: String
+    @NSManaged var category: Category
+    @NSManaged var university: String
+    @NSManaged var developers: [String]
 
 }
 

@@ -16,7 +16,7 @@ class AppsTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        PFQuery(className: "App").findObjectsInBackground { (apps, error) in
+        PFQuery(className: "App").includeKey("category").findObjectsInBackground { (apps, error) in
             if let e = error {
                 AlertHelper.showAlert(self, title: "Ocorreu um erro", message: e.localizedDescription, confirmText: "OK")
                 return

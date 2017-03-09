@@ -11,6 +11,7 @@
 		3F14338C1E6B4CAB00E50457 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14338A1E6B4CAB00E50457 /* Main.storyboard */; };
 		3F14338E1E6B4CAB00E50457 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F14338D1E6B4CAB00E50457 /* Assets.xcassets */; };
 		3F1433911E6B4CAB00E50457 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F14338F1E6B4CAB00E50457 /* LaunchScreen.storyboard */; };
+		3F17BB8E1E71C6C3002138BA /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F17BB8D1E71C6C3002138BA /* Category.swift */; };
 		3F2FE2801E707FA4004B8173 /* View1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FE27F1E707FA4004B8173 /* View1.swift */; };
 		3F2FE2831E7086AB004B8173 /* View1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FE2811E707FB8004B8173 /* View1.xib */; };
 		3F2FE2851E70952E004B8173 /* AppDetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FE2841E70952E004B8173 /* AppDetailView.xib */; };
@@ -33,6 +34,7 @@
 		3F14338D1E6B4CAB00E50457 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F1433901E6B4CAB00E50457 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F1433921E6B4CAB00E50457 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F17BB8D1E71C6C3002138BA /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		3F2FE27F1E707FA4004B8173 /* View1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = View1.swift; sourceTree = "<group>"; };
 		3F2FE2811E707FB8004B8173 /* View1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View1.xib; sourceTree = "<group>"; };
 		3F2FE2841E70952E004B8173 /* AppDetailView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppDetailView.xib; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				3F2FE2861E70954E004B8173 /* AppDetailView.swift */,
 				3F2FE2881E709576004B8173 /* AppRelatedsView.xib */,
 				3F2FE28A1E709583004B8173 /* AppRelatedsView.swift */,
+				3F17BB8D1E71C6C3002138BA /* Category.swift */,
 				3F14338D1E6B4CAB00E50457 /* Assets.xcassets */,
 				3F53DBAA1E6B4D6F0044FB55 /* Supporting Files */,
 			);
@@ -265,6 +268,7 @@
 				3F53DBB01E6B5BDE0044FB55 /* AppsTableViewController.swift in Sources */,
 				3FFB54B71E6F3A1E00C3B201 /* AppTableViewCell.swift in Sources */,
 				3F2FE2871E70954E004B8173 /* AppDetailView.swift in Sources */,
+				3F17BB8E1E71C6C3002138BA /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

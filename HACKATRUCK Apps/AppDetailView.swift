@@ -27,6 +27,22 @@ class AppDetailView: UIView {
 
     func bind(_ app: App) {
         appDescription.text = app.appDescription
+        company.text = app.company
+        university.text = app.university
+        category.text = app.category.name
+
+        var team = ""
+        for developer in app.developers {
+            team += developer + ", "
+        }
+        let index = team.index(team.endIndex, offsetBy: -2)
+        self.team.text = team.substring(to: index)
+        if let createdAtDate = app.createdAt {
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = "dd/MMM/yyyy - hh:mm:ss"
+            dateFormatter.locale = Locale.init(identifier: "en_EU")
+            createdAt.text = "\(dateFormatter.string(from: createdAtDate))"
+        }
     }
 
 }

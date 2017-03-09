@@ -23,7 +23,7 @@ class AppDetailViewController: UIViewController, ISScrollViewPageDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         name.text = app.name
-        company.text = company.text
+        company.text = app.company
         likes.text = "\(app.likes) Likes"
         
         scrollViewPage.scrollViewPageDelegate = self;
