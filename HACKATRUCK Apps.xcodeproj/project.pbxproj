@@ -19,10 +19,12 @@
 		3F2FE2871E70954E004B8173 /* AppDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FE2861E70954E004B8173 /* AppDetailView.swift */; };
 		3F2FE2891E709576004B8173 /* AppRelatedsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F2FE2881E709576004B8173 /* AppRelatedsView.xib */; };
 		3F2FE28B1E709583004B8173 /* AppRelatedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2FE28A1E709583004B8173 /* AppRelatedsView.swift */; };
+		3F4ED5691E71F4470054BBA7 /* AppSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4ED5681E71F4470054BBA7 /* AppSearchTableViewCell.swift */; };
 		3F53DBAC1E6B54D70044FB55 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53DBAB1E6B54D70044FB55 /* App.swift */; };
 		3F53DBAE1E6B5B8F0044FB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53DBAD1E6B5B8F0044FB55 /* ViewController.swift */; };
 		3F53DBB01E6B5BDE0044FB55 /* AppsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F53DBAF1E6B5BDE0044FB55 /* AppsTableViewController.swift */; };
 		3FB885761E6E031A0077E3A9 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB885751E6E031A0077E3A9 /* AlertHelper.swift */; };
+		3FBC7B061E71F6A60041EB39 /* AppsSearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBC7B051E71F6A60041EB39 /* AppsSearchTableViewController.swift */; };
 		3FC4A3A31E71D35300FFDE30 /* CategoriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC4A3A21E71D35300FFDE30 /* CategoriesTableViewController.swift */; };
 		3FFB54B71E6F3A1E00C3B201 /* AppTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB54B61E6F3A1E00C3B201 /* AppTableViewCell.swift */; };
 		3FFB54B91E6F4AC800C3B201 /* AppDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFB54B81E6F4AC800C3B201 /* AppDetailViewController.swift */; };
@@ -44,10 +46,12 @@
 		3F2FE2861E70954E004B8173 /* AppDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDetailView.swift; sourceTree = "<group>"; };
 		3F2FE2881E709576004B8173 /* AppRelatedsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AppRelatedsView.xib; sourceTree = "<group>"; };
 		3F2FE28A1E709583004B8173 /* AppRelatedsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppRelatedsView.swift; sourceTree = "<group>"; };
+		3F4ED5681E71F4470054BBA7 /* AppSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSearchTableViewCell.swift; sourceTree = "<group>"; };
 		3F53DBAB1E6B54D70044FB55 /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		3F53DBAD1E6B5B8F0044FB55 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3F53DBAF1E6B5BDE0044FB55 /* AppsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsTableViewController.swift; sourceTree = "<group>"; };
 		3FB885751E6E031A0077E3A9 /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		3FBC7B051E71F6A60041EB39 /* AppsSearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppsSearchTableViewController.swift; sourceTree = "<group>"; };
 		3FC4A3A21E71D35300FFDE30 /* CategoriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoriesTableViewController.swift; sourceTree = "<group>"; };
 		3FFB54B61E6F3A1E00C3B201 /* AppTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppTableViewCell.swift; sourceTree = "<group>"; };
 		3FFB54B81E6F4AC800C3B201 /* AppDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDetailViewController.swift; sourceTree = "<group>"; };
@@ -91,10 +95,12 @@
 			children = (
 				3FB885751E6E031A0077E3A9 /* AlertHelper.swift */,
 				3F53DBAF1E6B5BDE0044FB55 /* AppsTableViewController.swift */,
+				3FBC7B051E71F6A60041EB39 /* AppsSearchTableViewController.swift */,
 				3F53DBAD1E6B5B8F0044FB55 /* ViewController.swift */,
 				3F53DBAB1E6B54D70044FB55 /* App.swift */,
 				3F14338A1E6B4CAB00E50457 /* Main.storyboard */,
 				3FFB54B61E6F3A1E00C3B201 /* AppTableViewCell.swift */,
+				3F4ED5681E71F4470054BBA7 /* AppSearchTableViewCell.swift */,
 				3FFB54B81E6F4AC800C3B201 /* AppDetailViewController.swift */,
 				3F2FE27F1E707FA4004B8173 /* View1.swift */,
 				3F2FE2811E707FB8004B8173 /* View1.xib */,
@@ -270,6 +276,8 @@
 				3F53DBAE1E6B5B8F0044FB55 /* ViewController.swift in Sources */,
 				3F2FE2801E707FA4004B8173 /* View1.swift in Sources */,
 				3F53DBAC1E6B54D70044FB55 /* App.swift in Sources */,
+				3F4ED5691E71F4470054BBA7 /* AppSearchTableViewCell.swift in Sources */,
+				3FBC7B061E71F6A60041EB39 /* AppsSearchTableViewController.swift in Sources */,
 				3F1433871E6B4CAB00E50457 /* AppDelegate.swift in Sources */,
 				3FFB54B91E6F4AC800C3B201 /* AppDetailViewController.swift in Sources */,
 				3F2FE28B1E709583004B8173 /* AppRelatedsView.swift in Sources */,
